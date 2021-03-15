@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/home.css">
+    <link rel="stylesheet" href="../static/css/register.css">
+    <link rel="stylesheet" href="../static/css/login.css">
+    <link rel="stylesheet" href="../static/css/addgames.css">
+    <link rel="stylesheet" href="../static/css/games.css">
+    <link rel="stylesheet" href="../static/css/buygames.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="TumKapsamaAlani">
+
+        <div id="NavbarKapsamaAlani">
+            <div id="NavbarSinirlamaAlani">
+                <div id="NavbarLinkAlani">
+                    {% if session["logged_in"] %}
+                    <a href="/">Home</a>
+                    <a href="/addgames">Add Games</a>
+                    <a href="/buygames">Buy Games</a>
+                    <a href="/log_out">Logout</a> {% else %}
+                    <a href="/">Home</a>
+                    <a href="/register">Register</a>
+                    <a href="/log_in">Log In</a> {% endif %} {% if session["logged_in"] %}
+                    <div style="float: right;margin-right: 10px;font-size:14px;margin-top: 3px;color:#696969;">Welcome {{session["username"]}}</div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        <div id="FlashMesajıAlani">
+            {% include '/includes/messages.html' %}
+        </div>
+
+
+        <main>
+            {% block body %} {% if session["logged_in"] %}
+            <div id="AnaOyunResimleriAlani">
+                <div id="AnaOyunResimleriSinirlamaAlani">
+                    {% for i in result %}
+                    <a href="/games/{{i[0]}}">
+                        <div class="AnaOyunAnaBolme">
+                            <div class="AnaOyunResmi">
+                                <img src="/static/resimler/Games/{{i[5]}}" alt="">
+                            </div>
+                            <div class="AnaOyunBaslik">
+                                <span><b>Game Name</b> : {{i[0]}}</span>
+                            </div>
+                            <div class="AnaOyunYil">
+                                <span><b>Game Year</b> : {{i[1]}}</span>
+                            </div>
+                            <div class="AnaOyunYapımcı">
+                                <span><b>Game Direction</b> : {{i[2]}}</span>
+                            </div>
+                            <div class="AnaOyunSirket">
+                                <span><b>Game Company</b> : {{i[3]}}</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    {% endfor %}
+
+
+                </div>
+            </div>
+            {% else %}
+            <h3>Please Login</h3>
+            {% endif %} {% endblock body %}
+        </main>
+
+        <footer id="FooterKapsamaAlani">
+            <div id="FooterSinirlamaAlani">
+                <div id="FooterSolAlan">
+                    <div id="FooterSolAlanBaslik">Communication</div>
+                    <div id="FooterSolAlanIcerikAlani">
+                        <div class="FooterSolAlanIcerikBasligi">Phone Number </div><span class="FooterSolAlanIcerikAlaniIcerigi">+90 (553) 025 70 11</span>
+                        <div class="FooterSolAlanIcerikBasligi">Fax </div><span class="FooterSolAlanIcerikAlaniIcerigi">0 (258) 266 11 00</span>
+                        <div class="FooterSolAlanIcerikBasligi">Adress </div><span class="FooterSolAlanIcerikAlaniIcerigi">Sirocco S. No:44 Dolamity Apt. Misouri/ABD</span>
+
+                    </div>
+                </div>
+                <div id="FooterOrtaAlan">
+                    <div id="FooterOrtaAlanReklamAlani">
+                        <div id="FooterOrtaAlanReklamAlaniResmi"><img src="../static/resimler/ReklamAlani.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div id="FooterSagAlan">
+                    <div id="FooterSagAlanSosyalMedyalarAlani">
+                        <div id="FooterSagAlanBaslik">Social Medias</div>
+                        <div id="FooterSagAlanIcerikAlani">
+                            <div class="FooterSagAlanSosyalMedyalar">
+                                <a href="https://www.facebook.com.tr"><img src="../static/resimler/Facebook16x16.png" alt=""><span>Facebook</span></a>
+                            </div>
+                            <div class="FooterSagAlanSosyalMedyalar">
+                                <a href="https://www.facebook.com.tr"><img src="../static/resimler/Twitter16x16.png" alt=""><span>Twitter</span></a>
+                            </div>
+                            <div class="FooterSagAlanSosyalMedyalar">
+                                <a href="https://www.facebook.com.tr"><img src="../static/resimler/Instagram16x16.png" alt=""><span>Instagram</span></a>
+                            </div>
+                            <div class="FooterSagAlanSosyalMedyalar">
+                                <a href="https://www.linkdin.com.tr"><img src="../static/resimler/LinkedIn20x20.png" alt=""><span>LinkedIn</span></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,396 @@
+#OyunlarAnaAlan {
+    position: relative;
+    display: block;
+    width: -webkit-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: -o-calc(100% - 20px);
+    width: -ms-calc(100% - 20px);
+    width: calc(100% - 20px);
+    min-width: -webkit-calc(100% - 20px);
+    min-width: -moz-calc(100% - 20px);
+    min-width: -o-calc(100% - 20px);
+    min-width: -ms-calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: -webkit-calc(100% - 20px);
+    max-width: -moz-calc(100% - 20px);
+    max-width: -o-calc(100% - 20px);
+    max-width: -ms-calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #FFF;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#OyunlarSinirlamaAlani {
+    display: block;
+    width: -webkit-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: -o-calc(100% - 20px);
+    width: -ms-calc(100% - 20px);
+    width: calc(100% - 20px);
+    min-width: -webkit-calc(100% - 20px);
+    min-width: -moz-calc(100% - 20px);
+    min-width: -o-calc(100% - 20px);
+    min-width: -ms-calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: -webkit-calc(100% - 20px);
+    max-width: -moz-calc(100% - 20px);
+    max-width: -o-calc(100% - 20px);
+    max-width: -ms-calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #FFF;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.OyunlarResimAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.OyunlarResimAlani img {
+    display: block;
+    float: left;
+    width: 213px;
+    min-width: 213px;
+    max-width: 213px;
+    height: 217px;
+    min-height: 217px;
+    max-height: 217px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid goldenrod;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    animation-name: GameBorder;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-timing-function: cubic-bezier(1, 0, 0, 1);
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes GameBorder {
+    33.33% {
+        border: 1px solid #CCC;
+    }
+    66.66% {
+        border: 1px solid #000;
+    }
+    100% {
+        border: 1px solid gold;
+    }
+}
+
+.OyunlarBaslikAlani {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.OyunlarBaslik {
+    display: inline-block;
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 5px;
+    padding: 0px;
+    padding-right: 3px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    color: rgb(26, 175, 201);
+}
+
+@media only screen and (min-width:1200px) {
+    .OyunlarBaslik {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    .OyunlarBaslik {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    .OyunlarBaslik {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .OyunlarBaslik {
+        font-size: 15px;
+    }
+}
+
+.OyunlarYilAlani {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.OyunlarYapimciAlani {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.OyunlarSirketAlani {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.OyunlarAciklamaAlani {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.OyunlarContentAlani {
+    display: inline-block;
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 5px;
+    padding: 0px;
+    padding-right: 3px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    color: #696969;
+}
+
+@media only screen and (min-width:1200px) {
+    .OyunlarContentAlani {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    .OyunlarContentAlani {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    .OyunlarContentAlani {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .OyunlarBaslik {
+        font-size: 15px;
+    }
+}
+
+.OyunlarSilButonuAlani {
+    display: inline-block;
+    float: left;
+    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 0px;
+    padding: 5px;
+    border: none;
+    border: 1px solid #696969;
+    border-radius: 5px;
+    background-color: #bb2f2f;
+    outline: none;
+    overflow: hidden;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.OyunlarSilButonuAlani a {
+    display: inline-block;
+    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    color: #FFF;
+}
+
+.OyunlarSilButonuAlani:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+
+/**/
+
+.OyunlarUpdateButonuAlani {
+    display: inline-block;
+    float: left;
+    width: 55px;
+    min-width: 55px;
+    max-width: 55px;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 0px;
+    padding: 5px;
+    border: none;
+    border: 1px solid #696969;
+    border-radius: 5px;
+    background-color: #2f44bb;
+    outline: none;
+    overflow: hidden;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.OyunlarUpdateButonuAlani a {
+    display: inline-block;
+    width: 55px;
+    min-width: 55px;
+    max-width: 55px;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    color: #FFF;
+}
+
+.OyunlarUpdateButonuAlani:hover {
+    background-color: blue;
+    cursor: pointer;
+}

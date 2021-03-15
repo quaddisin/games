@@ -1,0 +1,276 @@
+.OyunSatinAlmaAlani {
+    display: block;
+    width: -webkit-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: -o-calc(100% - 20px);
+    width: -ms-calc(100% - 20px);
+    width: calc(100% - 20px);
+    min-width: -webkit-calc(100% - 20px);
+    min-width: -moz-calc(100% - 20px);
+    min-width: -o-calc(100% - 20px);
+    min-width: -ms-calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: -webkit-calc(100% - 20px);
+    max-width: -moz-calc(100% - 20px);
+    max-width: -o-calc(100% - 20px);
+    max-width: -ms-calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#OyunSatinAlmaSinirlamaAlani {
+    display: inline-block;
+    width: -webkit-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: -o-calc(100% - 20px);
+    width: -ms-calc(100% - 20px);
+    width: calc(100% - 20px);
+    min-width: -webkit-calc(100% - 20px);
+    min-width: -moz-calc(100% - 20px);
+    min-width: -o-calc(100% - 20px);
+    min-width: -ms-calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: -webkit-calc(100% - 20px);
+    max-width: -moz-calc(100% - 20px);
+    max-width: -o-calc(100% - 20px);
+    max-width: -ms-calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.OyunSatinAlmaBilgileri {
+    display: block;
+    float: left;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:1200px) {
+    .OyunSatinAlmaBilgileri {
+        width: 25%;
+        min-width: 25%;
+        max-width: 25%;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    .OyunSatinAlmaBilgileri {
+        width: 33.33%;
+        min-width: 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    .OyunSatinAlmaBilgileri {
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .OyunSatinAlmaBilgileri {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+.OyunSatinAlmaResimAlani {
+    display: block;
+    width: auto;
+    height: 298px;
+    min-height: 298px;
+    max-height: 298px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.OyunSatinAlmaResimAlani img {
+    display: block;
+    width: auto;
+    height: 298px;
+    min-height: 298px;
+    max-height: 298px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border: 2px solid #CCC;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    animation: ImgBorder 3s 0s linear infinite alternate none running;
+}
+
+@keyframes ImgBorder {
+    from {
+        border: 2px solid #CCC;
+    }
+    to {
+        border: 2px solid rgb(255, 0, 0);
+    }
+}
+
+.OyunSatinAlmaBaslikAlani {
+    display: block;
+    float: left;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    color: #696969;
+}
+
+@media only screen and (min-width:1200px) {
+    .OyunSatinAlmaBaslikAlani {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    .OyunSatinAlmaBaslikAlani {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    .OyunSatinAlmaBaslikAlani {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .OyunSatinAlmaBaslikAlani {
+        font-size: 12px;
+    }
+}
+
+.OyunSatinAlmaBaslikAlani a {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    color: #696969;
+}
+
+@media only screen and (min-width:1200px) {
+    .OyunSatinAlmaBaslikAlani a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    .OyunSatinAlmaBaslikAlani a {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    .OyunSatinAlmaBaslikAlani a {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .OyunSatinAlmaBaslikAlani a {
+        font-size: 12px;
+    }
+}
+
+.OyunSatinAlmaBaslikAlani a:link,
+.OyunSatinAlmaBaslikAlani a:visited,
+.OyunSatinAlmaBaslikAlani a:active {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    color: #696969;
+}
+
+.OyunSatinAlmaBaslikAlani a:hover {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    color: #000;
+}

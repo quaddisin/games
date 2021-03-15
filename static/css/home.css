@@ -1,0 +1,1301 @@
+#TumKapsamaAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    margin: 0px auto;
+    margin-top: 50px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#NavbarKapsamaAlani {
+    display: block;
+    position: -webkit-fixed;
+    position: -moz-fixed;
+    position: -o-fixed;
+    position: -ms-fixed;
+    position: fixed;
+    top: 0.3px;
+    width: -webkit-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: -o-calc(100% - 20px);
+    width: -ms-calc(100% - 20px);
+    width: calc(100% - 20px);
+    min-width: -webkit-calc(100% - 20px);
+    min-width: -moz-calc(100% - 20px);
+    min-width: -o-calc(100% - 20px);
+    min-width: -ms-calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: -webkit-calc(100% - 20px);
+    max-width: -moz-calc(100% - 20px);
+    max-width: -o-calc(100% - 20px);
+    max-width: -ms-calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    height: 35px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border: 1px solid #909;
+    border-radius: 5px;
+    outline: none;
+    background-color: #CCC;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    z-index: 99;
+    animation-name: NavBorder;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes NavBorder {
+    from {
+        border: 1px solid #909;
+    }
+    to {
+        border: 1px solid goldenrod;
+    }
+}
+
+#NavbarSinirlamaAlani {
+    display: block;
+    position: -webkit-fixed;
+    position: -moz-fixed;
+    position: -o-fixed;
+    position: -ms-fixed;
+    position: fixed;
+    top: 1.3px;
+    width: -webkit-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: -o-calc(100% - 20px);
+    width: -ms-calc(100% - 20px);
+    width: calc(100% - 20px);
+    min-width: -webkit-calc(100% - 20px);
+    min-width: -moz-calc(100% - 20px);
+    min-width: -o-calc(100% - 20px);
+    min-width: -ms-calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: -webkit-calc(100% - 20px);
+    max-width: -moz-calc(100% - 20px);
+    max-width: -o-calc(100% - 20px);
+    max-width: -ms-calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    height: 35px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #CCC;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#NavbarLinkAlani {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 35px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    line-height: 2;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#NavbarLinkAlani a {
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding-left: 10px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    color: #099;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+}
+
+#NavbarLinkAlani a:link,
+#NavbarLinkAlani a:visited,
+#NavbarLinkAlani a:active {
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding-left: 10px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    color: #099;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+}
+
+#NavbarLinkAlani a:hover {
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding-left: 10px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-variant: normal;
+    color: #099;
+    transform: perspective(1000px) scaleZ(2) translateZ(150px);
+}
+
+main {
+    display: block;
+    width: -webkit-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: -o-calc(100% - 20px);
+    width: -ms-calc(100% - 20px);
+    width: calc(100% - 20px);
+    min-width: -webkit-calc(100% - 20px);
+    min-width: -moz-calc(100% - 20px);
+    min-width: -o-calc(100% - 20px);
+    min-width: -ms-calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: -webkit-calc(100% - 20px);
+    max-width: -moz-calc(100% - 20px);
+    max-width: -o-calc(100% - 20px);
+    max-width: -ms-calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    height: auto;
+    margin: 0px auto;
+    margin-top: 5px;
+    margin-bottom: 290px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#FooterKapsamaAlani {
+    display: block;
+    width: -webkit-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: -o-calc(100% - 20px);
+    width: -ms-calc(100% - 20px);
+    width: calc(100% - 20px);
+    min-width: -webkit-calc(100% - 20px);
+    min-width: -moz-calc(100% - 20px);
+    min-width: -o-calc(100% - 20px);
+    min-width: -ms-calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: -webkit-calc(100% - 20px);
+    max-width: -moz-calc(100% - 20px);
+    max-width: -o-calc(100% - 20px);
+    max-width: -ms-calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    border: none;
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    outline: none;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#FooterSinirlamaAlani {
+    display: inline-block;
+    width: -webkit-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: -o-calc(100% - 20px);
+    width: -ms-calc(100% - 20px);
+    width: calc(100% - 20px);
+    min-width: -webkit-calc(100% - 20px);
+    min-width: -moz-calc(100% - 20px);
+    min-width: -o-calc(100% - 20px);
+    min-width: -ms-calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: -webkit-calc(100% - 20px);
+    max-width: -moz-calc(100% - 20px);
+    max-width: -o-calc(100% - 20px);
+    max-width: -ms-calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+
+/*FooterSolAlan*/
+
+#FooterSolAlan {
+    display: inline-block;
+    float: left;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSolAlan {
+        width: -webkit-calc(33.33% - 5px);
+        width: -moz-calc(33.33% - 5px);
+        width: -o-calc(33.33% - 5px);
+        width: -ms-calc(33.33% - 5px);
+        width: calc(33.33% - 5px);
+        min-width: -webkit-calc(33.33% - 5px);
+        min-width: -moz-calc(33.33% - 5px);
+        min-width: -o-calc(33.33% - 5px);
+        min-width: -ms-calc(33.33% - 5px);
+        min-width: calc(33.33% - 5px);
+        max-width: -webkit-calc(33.33% - 5px);
+        max-width: -moz-calc(33.33% - 5px);
+        max-width: -o-calc(33.33% - 5px);
+        max-width: -ms-calc(33.33% - 5px);
+        max-width: calc(33.33% - 5px);
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSolAlan {
+        width: -webkit-calc(33.33% - 5px);
+        width: -moz-calc(33.33% - 5px);
+        width: -o-calc(33.33% - 5px);
+        width: -ms-calc(33.33% - 5px);
+        width: calc(33.33% - 5px);
+        min-width: -webkit-calc(33.33% - 5px);
+        min-width: -moz-calc(33.33% - 5px);
+        min-width: -o-calc(33.33% - 5px);
+        min-width: -ms-calc(33.33% - 5px);
+        min-width: calc(33.33% - 5px);
+        max-width: -webkit-calc(33.33% - 5px);
+        max-width: -moz-calc(33.33% - 5px);
+        max-width: -o-calc(33.33% - 5px);
+        max-width: -ms-calc(33.33% - 5px);
+        max-width: calc(33.33% - 5px);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #FooterSolAlan {
+        width: -webkit-calc(50% - 5px);
+        width: -moz-calc(50% - 5px);
+        width: -o-calc(50% - 5px);
+        width: -ms-calc(50% - 5px);
+        width: calc(50% - 5px);
+        min-width: -webkit-calc(50% - 5px);
+        min-width: -moz-calc(50% - 5px);
+        min-width: -o-calc(50% - 5px);
+        min-width: -ms-calc(50% - 5px);
+        min-width: calc(50% - 5px);
+        max-width: -webkit-calc(50% - 5px);
+        max-width: -moz-calc(50% - 5px);
+        max-width: -o-calc(50% - 5px);
+        max-width: -ms-calc(50% - 5px);
+        max-width: calc(50% - 5px);
+    }
+}
+
+@media only screen and (max-width:767px) {
+    #FooterSolAlan {
+        width: -webkit-calc(100% - 5px);
+        width: -moz-calc(100% - 5px);
+        width: -o-calc(100% - 5px);
+        width: -ms-calc(100% - 5px);
+        width: calc(100% - 5px);
+        min-width: -webkit-calc(100% - 5px);
+        min-width: -moz-calc(100% - 5px);
+        min-width: -o-calc(100% - 5px);
+        min-width: -ms-calc(100% - 5px);
+        min-width: calc(100% - 5px);
+        max-width: -webkit-calc(100% - 5px);
+        max-width: -moz-calc(100% - 5px);
+        max-width: -o-calc(100% - 5px);
+        max-width: -ms-calc(100% - 5px);
+        max-width: calc(100% - 5px);
+        margin-bottom: 15px;
+    }
+}
+
+#FooterSolAlanBaslik {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    color: #099;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSolAlanBaslik {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSolAlanBaslik {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #FooterSolAlanBaslik {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    #FooterSolAlanBaslik {
+        font-size: 15px;
+    }
+}
+
+#FooterSolAlanIcerikAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0x auto;
+    margin-left: 15px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background-color: #FFF;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.FooterSolAlanIcerikBasligi {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    color: #000;
+}
+
+@media only screen and (min-width:1200px) {
+    .FooterSolAlanIcerikBasligi {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    .FooterSolAlanIcerikBasligi {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    .FooterSolAlanIcerikBasligi {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .FooterSolAlanIcerikBasligi {
+        font-size: 13px;
+    }
+}
+
+.FooterSolAlanIcerikAlaniIcerigi {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    margin-left: 10px;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-variant: normal;
+    color: #696969;
+}
+
+@media only screen and (min-width:1200px) {
+    .FooterSolAlanIcerikAlaniIcerigi {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    .FooterSolAlanIcerikAlaniIcerigi {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    .FooterSolAlanIcerikAlaniIcerigi {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .FooterSolAlanIcerikAlaniIcerigi {
+        font-size: 12px;
+    }
+}
+
+
+/*FooterOrtaAlan*/
+
+#FooterOrtaAlan {
+    display: inline-block;
+    float: left;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterOrtaAlan {
+        width: -webkit-calc(33.33% - 5px);
+        width: -moz-calc(33.33% - 5px);
+        width: -o-calc(33.33% - 5px);
+        width: -ms-calc(33.33% - 5px);
+        width: calc(33.33% - 5px);
+        min-width: -webkit-calc(33.33% - 5px);
+        min-width: -moz-calc(33.33% - 5px);
+        min-width: -o-calc(33.33% - 5px);
+        min-width: -ms-calc(33.33% - 5px);
+        min-width: calc(33.33% - 5px);
+        max-width: -webkit-calc(33.33% - 5px);
+        max-width: -moz-calc(33.33% - 5px);
+        max-width: -o-calc(33.33% - 5px);
+        max-width: -ms-calc(33.33% - 5px);
+        max-width: calc(33.33% - 5px);
+        text-align: center;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterOrtaAlan {
+        width: -webkit-calc(33.33% - 5px);
+        width: -moz-calc(33.33% - 5px);
+        width: -o-calc(33.33% - 5px);
+        width: -ms-calc(33.33% - 5px);
+        width: calc(33.33% - 5px);
+        min-width: -webkit-calc(33.33% - 5px);
+        min-width: -moz-calc(33.33% - 5px);
+        min-width: -o-calc(33.33% - 5px);
+        min-width: -ms-calc(33.33% - 5px);
+        min-width: calc(33.33% - 5px);
+        max-width: -webkit-calc(33.33% - 5px);
+        max-width: -moz-calc(33.33% - 5px);
+        max-width: -o-calc(33.33% - 5px);
+        max-width: -ms-calc(33.33% - 5px);
+        max-width: calc(33.33% - 5px);
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #FooterOrtaAlan {
+        width: -webkit-calc(50% - 5px);
+        width: -moz-calc(50% - 5px);
+        width: -o-calc(50% - 5px);
+        width: -ms-calc(50% - 5px);
+        width: calc(50% - 5px);
+        min-width: -webkit-calc(50% - 5px);
+        min-width: -moz-calc(50% - 5px);
+        min-width: -o-calc(50% - 5px);
+        min-width: -ms-calc(50% - 5px);
+        min-width: calc(50% - 5px);
+        max-width: -webkit-calc(50% - 5px);
+        max-width: -moz-calc(50% - 5px);
+        max-width: -o-calc(50% - 5px);
+        max-width: -ms-calc(50% - 5px);
+        max-width: calc(50% - 5px);
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    #FooterOrtaAlan {
+        width: -webkit-calc(100% - 5px);
+        width: -moz-calc(100% - 5px);
+        width: -o-calc(100% - 5px);
+        width: -ms-calc(100% - 5px);
+        width: calc(100% - 5px);
+        min-width: -webkit-calc(100% - 5px);
+        min-width: -moz-calc(100% - 5px);
+        min-width: -o-calc(100% - 5px);
+        min-width: -ms-calc(100% - 5px);
+        min-width: calc(100% - 5px);
+        max-width: -webkit-calc(100% - 5px);
+        max-width: -moz-calc(100% - 5px);
+        max-width: -o-calc(100% - 5px);
+        max-width: -ms-calc(100% - 5px);
+        max-width: calc(100% - 5px);
+        margin-bottom: 15px;
+        text-align: left;
+    }
+}
+
+
+/*FooterSagAlan*/
+
+#FooterSagAlan {
+    display: inline-block;
+    float: left;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSagAlan {
+        width: -webkit-calc(33.33% - 5px);
+        width: -moz-calc(33.33% - 5px);
+        width: -o-calc(33.33% - 5px);
+        width: -ms-calc(33.33% - 5px);
+        width: calc(33.33% - 5px);
+        min-width: -webkit-calc(33.33% - 5px);
+        min-width: -moz-calc(33.33% - 5px);
+        min-width: -o-calc(33.33% - 5px);
+        min-width: -ms-calc(33.33% - 5px);
+        min-width: calc(33.33% - 5px);
+        max-width: -webkit-calc(33.33% - 5px);
+        max-width: -moz-calc(33.33% - 5px);
+        max-width: -o-calc(33.33% - 5px);
+        max-width: -ms-calc(33.33% - 5px);
+        max-width: calc(33.33% - 5px);
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSagAlan {
+        width: -webkit-calc(33.33% - 5px);
+        width: -moz-calc(33.33% - 5px);
+        width: -o-calc(33.33% - 5px);
+        width: -ms-calc(33.33% - 5px);
+        width: calc(33.33% - 5px);
+        min-width: -webkit-calc(33.33% - 5px);
+        min-width: -moz-calc(33.33% - 5px);
+        min-width: -o-calc(33.33% - 5px);
+        min-width: -ms-calc(33.33% - 5px);
+        min-width: calc(33.33% - 5px);
+        max-width: -webkit-calc(33.33% - 5px);
+        max-width: -moz-calc(33.33% - 5px);
+        max-width: -o-calc(33.33% - 5px);
+        max-width: -ms-calc(33.33% - 5px);
+        max-width: calc(33.33% - 5px);
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #FooterSagAlan {
+        width: -webkit-calc(50% - 5px);
+        width: -moz-calc(50% - 5px);
+        width: -o-calc(50% - 5px);
+        width: -ms-calc(50% - 5px);
+        width: calc(50% - 5px);
+        min-width: -webkit-calc(50% - 5px);
+        min-width: -moz-calc(50% - 5px);
+        min-width: -o-calc(50% - 5px);
+        min-width: -ms-calc(50% - 5px);
+        min-width: calc(50% - 5px);
+        max-width: -webkit-calc(50% - 5px);
+        max-width: -moz-calc(50% - 5px);
+        max-width: -o-calc(50% - 5px);
+        max-width: -ms-calc(50% - 5px);
+        max-width: calc(50% - 5px);
+    }
+}
+
+@media only screen and (max-width:767px) {
+    #FooterSagAlan {
+        width: -webkit-calc(100% - 5px);
+        width: -moz-calc(100% - 5px);
+        width: -o-calc(100% - 5px);
+        width: -ms-calc(100% - 5px);
+        width: calc(100% - 5px);
+        min-width: -webkit-calc(100% - 5px);
+        min-width: -moz-calc(100% - 5px);
+        min-width: -o-calc(100% - 5px);
+        min-width: -ms-calc(100% - 5px);
+        min-width: calc(100% - 5px);
+        max-width: -webkit-calc(100% - 5px);
+        max-width: -moz-calc(100% - 5px);
+        max-width: -o-calc(100% - 5px);
+        max-width: -ms-calc(100% - 5px);
+        max-width: calc(100% - 5px);
+        margin-bottom: 15px;
+    }
+}
+
+#FooterSagAlanSosyalMedyalarAlani {
+    display: inline-block;
+    float: left;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSagAlanSosyalMedyalarAlani {
+        width: -webkit-calc(40% - 5px);
+        width: -moz-calc(40% - 5px);
+        width: -o-calc(40% - 5px);
+        width: -ms-calc(40% - 5px);
+        width: calc(40% - 5px);
+        min-width: -webkit-calc(40% - 5px);
+        min-width: -moz-calc(40% - 5px);
+        min-width: -o-calc(40% - 5px);
+        min-width: -ms-calc(40% - 5px);
+        min-width: calc(40% - 5px);
+        max-width: -webkit-calc(40% - 5px);
+        max-width: -moz-calc(40% - 5px);
+        max-width: -o-calc(40% - 5px);
+        max-width: -ms-calc(40% - 5px);
+        max-width: calc(40% - 5px);
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSagAlanSosyalMedyalarAlani {
+        width: -webkit-calc(40% - 5px);
+        width: -moz-calc(40% - 5px);
+        width: -o-calc(40% - 5px);
+        width: -ms-calc(40% - 5px);
+        width: calc(40% - 5px);
+        min-width: -webkit-calc(40% - 5px);
+        min-width: -moz-calc(40% - 5px);
+        min-width: -o-calc(40% - 5px);
+        min-width: -ms-calc(40% - 5px);
+        min-width: calc(40% - 5px);
+        max-width: -webkit-calc(40% - 5px);
+        max-width: -moz-calc(40% - 5px);
+        max-width: -o-calc(40% - 5px);
+        max-width: -ms-calc(40% - 5px);
+        max-width: calc(40% - 5px);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #FooterSagAlanSosyalMedyalarAlani {
+        width: -webkit-calc(50% - 5px);
+        width: -moz-calc(50% - 5px);
+        width: -o-calc(50% - 5px);
+        width: -ms-calc(50% - 5px);
+        width: calc(50% - 5px);
+        min-width: -webkit-calc(50% - 5px);
+        min-width: -moz-calc(50% - 5px);
+        min-width: -o-calc(50% - 5px);
+        min-width: -ms-calc(50% - 5px);
+        min-width: calc(50% - 5px);
+        max-width: -webkit-calc(50% - 5px);
+        max-width: -moz-calc(50% - 5px);
+        max-width: -o-calc(50% - 5px);
+        max-width: -ms-calc(50% - 5px);
+        max-width: calc(50% - 5px);
+    }
+}
+
+@media only screen and (max-width:767px) {
+    #FooterSagAlanSosyalMedyalarAlani {
+        width: -webkit-calc(100% - 5px);
+        width: -moz-calc(100% - 5px);
+        width: -o-calc(100% - 5px);
+        width: -ms-calc(100% - 5px);
+        width: calc(100% - 5px);
+        min-width: -webkit-calc(100% - 5px);
+        min-width: -moz-calc(100% - 5px);
+        min-width: -o-calc(100% - 5px);
+        min-width: -ms-calc(100% - 5px);
+        min-width: calc(100% - 5px);
+        max-width: -webkit-calc(100% - 5px);
+        max-width: -moz-calc(100% - 5px);
+        max-width: -o-calc(100% - 5px);
+        max-width: -ms-calc(100% - 5px);
+        max-width: calc(100% - 5px);
+        margin-bottom: 15px;
+    }
+}
+
+#FooterSagAlanBaslik {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+    color: #099;
+}
+
+@media only screen and (min-width:1200px) {
+    #FooterSagAlanBaslik {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    #FooterSagAlanBaslik {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    #FooterSagAlanBaslik {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    #FooterSagAlanBaslik {
+        font-size: 15px;
+    }
+}
+
+.FooterSagAlanSosyalMedyalar {
+    display: block;
+    width: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.FooterSagAlanSosyalMedyalar a {
+    display: block;
+    width: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.FooterSagAlanSosyalMedyalar a:link,
+.FooterSagAlanSosyalMedyalar a:visited,
+.FooterSagAlanSosyalMedyalar a:active {
+    display: block;
+    width: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.FooterSagAlanSosyalMedyalar img {
+    display: inline-block;
+    width: 20px;
+    min-width: 20px;
+    max-width: 20px;
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+    margin: 0px auto;
+    padding: 0px;
+    padding-top: 15px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.FooterSagAlanSosyalMedyalar span {
+    display: inline-block;
+    width: 65px;
+    min-width: 65px;
+    max-width: 65px;
+    height: auto;
+    margin: 0px auto;
+    margin-left: 7px;
+    padding: 0px;
+    padding-top: 15px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    color: #099;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+}
+
+@media only screen and (min-width:1200px) {
+    .FooterSagAlanSosyalMedyalar span {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    .FooterSagAlanSosyalMedyalar span {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    .FooterSagAlanSosyalMedyalar span {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .FooterSagAlanSosyalMedyalar span {
+        font-size: 12px;
+    }
+}
+
+.FooterSagAlanSosyalMedyalar span:hover {
+    display: inline-block;
+    width: 80px;
+    min-width: 80px;
+    max-width: 80px;
+    height: auto;
+    margin: 0px auto;
+    margin-left: 7px;
+    padding: 0px;
+    padding-top: 15px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: middle;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    color: black;
+}
+
+@media only screen and (min-width:1200px) {
+    .FooterSagAlanSosyalMedyalar span:hover {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    .FooterSagAlanSosyalMedyalar span:hover {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    .FooterSagAlanSosyalMedyalar span:hover {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .FooterSagAlanSosyalMedyalar span:hover {
+        font-size: 12px;
+    }
+}
+
+#FooterSagAlanIcerikAlani {
+    margin-left: 15px;
+}
+
+#AnaOyunResimleriAlani {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#AnaOyunResimleriSinirlamaAlani {
+    display: inline-block;
+    float: left;
+    width: -webkit-calc(100% - 20px);
+    width: -moz-calc(100% - 20px);
+    width: -o-calc(100% - 20px);
+    width: -ms-calc(100% - 20px);
+    width: calc(100% - 20px);
+    min-width: -webkit-calc(100% - 20px);
+    min-width: -moz-calc(100% - 20px);
+    min-width: -o-calc(100% - 20px);
+    min-width: -ms-calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-width: -webkit-calc(100% - 20px);
+    max-width: -moz-calc(100% - 20px);
+    max-width: -o-calc(100% - 20px);
+    max-width: -ms-calc(100% - 20px);
+    max-width: calc(100% - 20px);
+    margin: 0px auto;
+    padding: 0px;
+    padding-left: 25px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#AnaOyunResimleriSinirlamaAlani a {
+    text-decoration: none;
+}
+
+.AnaOyunAnaBolme {
+    display: inline-block;
+    height: auto;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    padding: 0px;
+    overflow: none;
+    border: none;
+    outline: none;
+    vertical-align: top;
+    text-decoration: none;
+    transition-property: all;
+    transition-delay: 0s;
+    transition-duration: 700ms;
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
+}
+
+.AnaOyunAnaBolme:hover {
+    display: inline-block;
+    height: auto;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    padding: 0px;
+    overflow: none;
+    border: none;
+    outline: none;
+    vertical-align: top;
+    text-decoration: none;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media only screen and (min-width:1200px) {
+    .AnaOyunAnaBolme {
+        width: -webkit-calc(20% - 35px);
+        width: -moz-calc(20% - 35px);
+        width: -o-calc(20% - 35px);
+        width: -ms-calc(20% - 35px);
+        width: calc(20% - 35px);
+        min-width: -webkit-calc(20% - 35px);
+        min-width: -moz-calc(20% - 35px);
+        min-width: -o-calc(20% - 35px);
+        min-width: -ms-calc(20% - 35px);
+        min-width: calc(20% - 35px);
+        max-width: -webkit-calc(20% - 35px);
+        max-width: -moz-calc(20% - 35px);
+        max-width: -o-calc(20% - 35px);
+        max-width: -ms-calc(20% - 35px);
+        max-width: calc(20% - 35px);
+        text-align: left;
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    .AnaOyunAnaBolme {
+        width: -webkit-calc(25% - 45px);
+        width: -moz-calc(25% - 45px);
+        width: -o-calc(25% - 45px);
+        width: -ms-calc(25% - 45px);
+        width: calc(25% - 45px);
+        min-width: -webkit-calc(25% - 45px);
+        min-width: -moz-calc(25% - 45px);
+        min-width: -o-calc(25% - 45px);
+        min-width: -ms-calc(25% - 45px);
+        min-width: calc(25% - 45px);
+        max-width: -webkit-calc(25% - 45px);
+        max-width: -moz-calc(25% - 45px);
+        max-width: -o-calc(25% - 45px);
+        max-width: -ms-calc(25% - 45px);
+        max-width: calc(25% - 45px);
+        text-align: left;
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    .AnaOyunAnaBolme {
+        width: -webkit-calc(33.33% - 75px);
+        width: -moz-calc(33.33% - 75px);
+        width: -o-calc(33.33% - 75px);
+        width: -ms-calc(33.33% - 75px);
+        width: calc(33.33% - 75px);
+        min-width: -webkit-calc(33.33% - 75px);
+        min-width: -moz-calc(33.330% - 75px);
+        min-width: -o-calc(33.33% - 75px);
+        min-width: -ms-calc(33.33% - 75px);
+        min-width: calc(33.33% - 75px);
+        max-width: -webkit-calc(33.33% - 75px);
+        max-width: -moz-calc(33.33% - 75px);
+        max-width: -o-calc(33.33% - 75px);
+        max-width: -ms-calc(33.33% - 75px);
+        max-width: calc(33.33% - 75px);
+        text-align: left;
+        padding: 30px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .AnaOyunAnaBolme {
+        width: -webkit-calc(50% - 120px);
+        width: -moz-calc(50% - 120px);
+        width: -o-calc(50% - 120px);
+        width: -ms-calc(50% - 120px);
+        width: calc(50% - 120px);
+        min-width: -webkit-calc(50% - 120px);
+        min-width: -moz-calc(50% - 120px);
+        min-width: -o-calc(50% - 120px);
+        min-width: -ms-calc(50% - 120px);
+        min-width: calc(50% - 120px);
+        max-width: -webkit-calc(50% - 120px);
+        max-width: -moz-calc(50% - 120px);
+        max-width: -o-calc(50% - 120px);
+        max-width: -ms-calc(50% - 120px);
+        max-width: calc(50% - 120px);
+        text-align: center;
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .AnaOyunAnaBolme {
+        width: -webkit-calc(100% - 20px);
+        width: -moz-calc(100% - 20px);
+        width: -o-calc(100% - 20px);
+        width: -ms-calc(100% - 20px);
+        width: calc(100% - 20px);
+        min-width: -webkit-calc(100% - 20px);
+        min-width: -moz-calc(100% - 20px);
+        min-width: -o-calc(100% - 20px);
+        min-width: -ms-calc(100% - 20px);
+        min-width: calc(100% - 20px);
+        max-width: -webkit-calc(100% - 20px);
+        max-width: -moz-calc(100% - 20px);
+        max-width: -o-calc(10050% - 20px);
+        max-width: -ms-calc(100% - 20px);
+        max-width: calc(100% - 20px);
+        text-align: left;
+        padding: 10px;
+    }
+}
+
+.AnaOyunAnaBolme img {
+    display: inline-block;
+    float: left;
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    height: 237px;
+    min-height: 237px;
+    max-height: 237px;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.AnaOyunAnaBolme span {
+    display: inline-block;
+    float: left;
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+    color: #696969;
+}
+
+@media only screen and (min-width:1200px) {
+    .AnaOyunAnaBolme span {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:996px) and (max-width:1199px) {
+    .AnaOyunAnaBolme span {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:995px) {
+    .AnaOyunAnaBolme span {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .AnaOyunAnaBolme span {
+        font-size: 12px;
+    }
+}

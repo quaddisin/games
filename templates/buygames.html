@@ -1,0 +1,28 @@
+{% extends "home.html" %} {% block body %}
+
+<div id="OyunSatinAlmaAlani">
+    <div id="OyunSatinAlmaSinirlamaAlani">
+        {% for i in data %}
+
+
+        <div class="OyunSatinAlmaBilgileri">
+            <div class="OyunSatinAlmaResimAlani"><img src="/static/resimler/Games/{{i[5]}}" alt=""></div>
+            <div class="OyunSatinAlmaBaslikAlani">{{i[0]}}</div>
+            <div class="OyunSatinAlmaBaslikAlani">{{i[1]}}</div>
+            <div class="OyunSatinAlmaBaslikAlani">{{i[3]}}</div>
+            <div class="OyunSatinAlmaBaslikAlani">249,00 TL</div>
+            <div class="OyunSatinAlmaBaslikAlani">
+                Satın Almak İçin <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/"><span>Tıklayınız</span></a>
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+</div>
+
+
+
+
+
+
+{% endblock %}

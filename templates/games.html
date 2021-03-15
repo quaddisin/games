@@ -1,0 +1,37 @@
+{% extends "home.html" %} {% block body %}
+<div id="OyunlarAnaAlan">
+    <div id="OyunlarSinirlamaAlani">
+
+        <div class="OyunlarResimAlani">
+            <img src="/static/resimler/Games/{{data[5]}}" alt="">
+        </div>
+
+        <div class="OyunlarBaslikAlani">
+            <div class="OyunlarBaslik">Game Name :</div> <span class="OyunlarContentAlani"> {{data[0]}}</span>
+        </div>
+        <div class="OyunlarYilAlani">
+            <div class="OyunlarBaslik">Game Year :</div> <span class="OyunlarContentAlani"> {{data[1]}}</span>
+
+        </div>
+        <div class="OyunlarYapimciAlani">
+            <div class="OyunlarBaslik">Game Direction :</div> <span class="OyunlarContentAlani"> {{data[2]}}</span>
+
+        </div>
+
+        <div class="OyunlarSirketAlani">
+            <div class="OyunlarBaslik">Game Company :</div> <span class="OyunlarContentAlani"> {{data[3]}}</span>
+        </div>
+
+        <div class="OyunlarAciklamaAlani">
+            <div class="OyunlarBaslik">Game Content </div> <span class="OyunlarContentAlani"> 
+                {{data[4]}}
+            </span>
+        </div>
+        <div class="OyunlarSilButonuAlani"><a href="/gamesdelete/{{data[0]}}">Delete</a></div>
+        <div class="OyunlarUpdateButonuAlani"><a href="/gamesupdate/{{data[0]}}">Update</a></div>
+
+
+    </div>
+</div>
+
+{% endblock %}

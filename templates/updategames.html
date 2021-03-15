@@ -1,0 +1,34 @@
+{% extends 'home.html' %} {% block body %} {% from '/includes/formhelpers.html' import render_field %}
+<form method=post enctype=multipart/form-data>
+    <div id="AddGamesFormGenelAlan">
+        <div id="AddGamesFormSinirlamaAlani">
+            <div class="AddGamesFormInputlariAlani">
+                <div class="AddGamesFormİnput">
+                    <input type="text" name="gamename" placeholder="Game Name" value="{{data[0]}}" id="">
+                </div>
+                <div class="AddGamesFormİnput">
+                    <input type="text" name="gameyear" placeholder="Game Year" value="{{data[1]}}" id="">
+                </div>
+                <div class="AddGamesFormİnput">
+                    <input type="text" name="gamedirection" placeholder="Game Direction" value="{{data[2]}}" id="">
+                </div>
+                <div class="AddGamesFormİnput">
+                    <input type="text" name="gamecompany" placeholder="Game Company" value="{{data[3]}}" id="">
+                </div>
+
+                <div class="AddGamesFormİnput">
+                    <textarea name="gamecontent" cols="100" rows="10" placeholder="Game Content">{{data[4]}}</textarea>
+                </div>
+                <div class="AddGamesFormİnput">
+                    <input type="file" name="gamephoto" placeholder="Game Photo" id="">
+                </div>
+                <p><input class="AddGamesFormButton" type=submit value=Update>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</form>
+{% endblock body %}

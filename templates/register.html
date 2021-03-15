@@ -1,0 +1,30 @@
+{% extends 'home.html' %} {% block body %} {% from '/includes/formhelpers.html' import render_field %}
+<form method=post>
+    <div id="RegisterFormGenelAlan">
+        <div id="RegisterFormSinirlamaAlani">
+            <div class="RegisterFormInputlariAlani">
+                <div class="RegisterFormİnput">
+                    <input type="text" name="namesurname" placeholder="Name Surname" id="">
+                </div>
+                <div class="RegisterFormİnput">
+                    <input type="text" name="username" placeholder="Username" id="">
+                </div>
+                <div class="RegisterFormİnput">
+                    <input type="text" name="email" placeholder="Email" id="">
+                </div>
+                <div class="RegisterFormİnput">
+                    <input type="password" name="password" placeholder="Passport" id="">
+                </div>
+                <div class="RegisterFormİnput">
+                    <input type="password" name="confirmpass" placeholder="Confirm Passport" id="">
+                </div>
+                <p><input class="RegisterFormButton" type=submit value=Register>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</form>
+{% endblock body %}
